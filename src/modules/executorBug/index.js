@@ -8,6 +8,7 @@ import CreateModal from "./CreateModal";
 import RejectModal from "./RejectModal";
 import AssignModal from "./AssignModal";
 import ReAssignModal from "./ReAssignModal";
+import BatchAssignModal from "./BatchAssignModal";
 import PublishModal from "./PublishModal";
 import "../../index.css";
 
@@ -20,6 +21,7 @@ const ExecutorBug = () => {
             <RejectModal/>
             <AssignModal/>
             <ReAssignModal/>
+            <BatchAssignModal/>
             <PublishModal/>
             <ModifyModal/>
             <List/>

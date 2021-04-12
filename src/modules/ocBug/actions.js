@@ -24,6 +24,9 @@ export const assign = createThunkAction(ACTION_PREFIX + "ASSIGN", params =>
 export const reAssign = createThunkAction(ACTION_PREFIX + "RE-ASSIGN", params =>
     postJson(path + "/reAssign", params)
 );
+export const batchAssign = createThunkAction(ACTION_PREFIX + "BATCH-ASSIGN", params =>
+    postJson(path + "/batchAssign", params)
+);
 export const publish = createThunkAction(ACTION_PREFIX + "PUBLISH", params =>
     postJson(path + "/publish", params)
 );
@@ -38,6 +41,8 @@ export const showAssignModal = createAction(ACTION_PREFIX + "SHOW_ASSIGN");
 export const hideAssignModal = createAction(ACTION_PREFIX + "HIDE_ASSIGN");
 export const showReAssign = createAction(ACTION_PREFIX + "SHOW_RE_ASSIGN");
 export const hideReAssign = createAction(ACTION_PREFIX + "HIDE_RE_ASSIGN");
+export const showBatchAssignModal = createAction(ACTION_PREFIX + "SHOW_BATCH_ASSIGN");
+export const hideBatchAssignModal = createAction(ACTION_PREFIX + "HIDE_BATCH_ASSIGN");
 export const showCreate = createAction(ACTION_PREFIX + "SHOW_CREATE");
 export const hideCreate = createAction(ACTION_PREFIX + "HIDE_CREATE");
 export const showReject = createAction(ACTION_PREFIX + "SHOW_REJECT");

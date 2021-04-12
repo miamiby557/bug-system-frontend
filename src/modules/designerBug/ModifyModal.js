@@ -66,6 +66,10 @@ class ModifyModal extends PureComponent {
                             title: '版本号',
                             readonly: true
                         }, {
+                            field: 'funcId',
+                            title: '功能点ID',
+                            readonly: true
+                        }, {
                             field: 'title',
                             title: '标题',
                             readonly: true
@@ -91,6 +95,10 @@ class ModifyModal extends PureComponent {
                         {
                             field: 'designerVersion',
                             title: '版本号',
+                            readonly: true
+                        }, {
+                            field: 'funcId',
+                            title: '功能点ID',
                             readonly: true
                         }, {
                             field: 'title',
@@ -131,6 +139,10 @@ class ModifyModal extends PureComponent {
                             title: '版本号',
                             readonly: true
                         }, {
+                            field: 'funcId',
+                            title: '功能点ID',
+                            readonly: true
+                        }, {
                             field: 'title',
                             title: '标题',
                             readonly: true
@@ -166,6 +178,10 @@ class ModifyModal extends PureComponent {
                         {
                             field: 'designerVersion',
                             title: '版本号',
+                            readonly: true
+                        }, {
+                            field: 'funcId',
+                            title: '功能点ID',
                             readonly: true
                         }, {
                             field: 'title',

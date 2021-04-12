@@ -4,6 +4,7 @@ import modify from "./reducer-modify";
 import reject from "./reducer-reject";
 import create from "./reducer-create";
 import assign from "./reducer-assign";
+import batchAssign from "./reducer-batch-assign";
 import reAssign from "./reducer-re-assign";
 import publish from "./reducer-publish";
 
@@ -12,6 +13,7 @@ const reducer = combineReducers({
     create,
     assign,
     reAssign,
+    batchAssign,
     reject,
     publish,
     modify

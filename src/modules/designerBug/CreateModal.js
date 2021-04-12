@@ -44,6 +44,10 @@ class CreateModal extends PureComponent {
                             rules: [{required: true, message: '请输入版本号'}]
                         }
                     }, {
+                        field: 'funcId',
+                        title: '功能点ID',
+                        type: 'text'
+                    }, {
                         field: 'title',
                         title: '标题',
                         type: 'text',

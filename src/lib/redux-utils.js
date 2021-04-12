@@ -4,7 +4,7 @@ import {Form} from 'antd';
 
 export function createAction(type) {
     const typeString = type.toString();
-    const actionCreator = payload => {
+    const actionCreator = ()=> {
         const action = {type, payload};
         if (payload instanceof Error) {
             action.error = true;

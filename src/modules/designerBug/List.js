@@ -38,6 +38,7 @@ class List extends PureComponent {
         } = this.props;
         const columns = [
             {value: 'designerVersion', label: '版本号'},
+            {value: 'funcId', label: '功能点ID'},
             {value: 'title', label: '标题', "clickable": true},
             {value: 'userName', label: '提出人'},
             {value: 'createTime', label: '提出时间', type: "dateTime"},
