@@ -76,7 +76,8 @@ class BatchAssignModal extends PureComponent {
 
 const mapStateToProps = state => {
     return {
-        ...state.designerBug.batchAssign
+        ...state.designerBug.batchAssign,
+        users: state.user.list.dataSource
     };
 };
 

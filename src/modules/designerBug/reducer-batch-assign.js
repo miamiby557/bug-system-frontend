@@ -3,7 +3,7 @@ const defaultState = {
     selectedRowKeys: []
 };
 export default function batchAssign(state = defaultState, action) {
-    const {type, payload} = action;
+    const {type, error, payload} = action;
     switch (type) {
         case 'DESIGNER-BUG.SHOW_BATCH_ASSIGN':
             return {...state, visible: true, selectedRowKeys: [...payload]};
